@@ -1,8 +1,8 @@
 package com.microservice.entity;
 
-public class HogeTest {
+public class HogeATest {
     private String info;
-    public HogeTest (String info) {
+    public HogeATest (String info) {
         this.setInfo(info);
     }
     public String getInfo() {

@@ -3,12 +3,12 @@ package com.microservice.controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.microservice.entity.HogeTest;
+import com.microservice.entity.HogeATest;
 
 @RestController
 public class DemoAController {
     @RequestMapping("/")
-    public HogeTest getSentence() {
-        return new HogeTest("テスト2");
+    public HogeATest getSentence() {
+        return new HogeATest("テスト2");
     }
 }
