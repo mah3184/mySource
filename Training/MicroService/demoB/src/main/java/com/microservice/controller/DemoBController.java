@@ -9,6 +9,6 @@ import com.microservice.entity.HogeBTest;
 public class DemoBController {
     @RequestMapping("/TestB")
     public HogeBTest getSentence() {
-        return new HogeBTest("テストB");
+        return new HogeBTest("テストBB");
     }
 }
